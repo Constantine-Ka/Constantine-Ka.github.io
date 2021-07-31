@@ -796,7 +796,7 @@ a {
 }
 .cid-sEIDGHvb4b .dropdown-menu,
 .cid-sEIDGHvb4b .navbar.opened {
-  background: #22a5e5 !important;
+  background: #549fc7 !important;
 }
 .cid-sEIDGHvb4b .nav-item:focus,
 .cid-sEIDGHvb4b .nav-link:focus {
@@ -831,7 +831,6 @@ a {
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-  /* background: #22a5e5; */
   background-color: #549fc7;
 }
 .cid-sEIDGHvb4b .navbar.opened {
@@ -962,6 +961,8 @@ a {
 }
 .cid-sEIDGHvb4b .navbar-brand .navbar-logo a {
   outline: none;
+  background-color: #fff;
+  border-radius: 50%;
 }
 .cid-sEIDGHvb4b .dropdown-item.active,
 .cid-sEIDGHvb4b .dropdown-item:active {
