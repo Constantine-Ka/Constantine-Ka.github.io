@@ -683,11 +683,47 @@ a {
   transition: color 0.6s;
 }
 .cid-sEIDCKXtKT {
-  padding-top: 10rem;
+  
+  padding-top: 5rem;
   padding-bottom: 10rem;
-  height: 60vh;
+  height: 70vh;
   /* background-image: url("../../../assets/images/cropped-1-4-1536x799.png"); */
   background-image: url("../../../assets/images/banner-header-1-1-2048x419.png");
+  background-color: #f5eae8;
+}
+.header img{ 
+  display: none;
+  margin: 20px;
+}
+@media (max-width:1550px) {
+  .cid-sEIDCKXtKT{background-image: none;height: 90vh;padding-top: 1rem;}
+  .header img{display: block;}
+}
+.header .logo{
+  width: 200px;
+  height: 100%;
+  /* background-image: url("../../../assets/images/cropped-google-250x250.png") ; */
+  background-size: cover;
+}
+.header .companyName{
+  width: 90%;
+  margin: 0;
+  height: auto;
+  /* background-image: url("../../../assets/images/organization_name.png") ; */
+  background-size: cover;
+}
+@media (min-width:950px) {
+  .header .companyName{
+    width: 500px;
+    height: 100%;
+  }
+}
+ .header .oldPeople{
+  margin: 0;
+  width: 345px;
+  height: 100%;
+  /* background-image: url("../../../assets/images/old_people.png") ; */
+  background-size: cover;
 }
 .cid-sEIDGHvb4b {
   z-index: 1000;

@@ -692,3 +692,6 @@ document.getElementsByTagName("body")[0].setAttribute("style", "z-index: 0");
         document.body.insertBefore(a, document.body.childNodes[0])
     }
 }();
+jarallax(document.querySelectorAll('.jarallax'), {
+    speed: 0.2
+});
