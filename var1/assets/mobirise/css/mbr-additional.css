@@ -508,6 +508,7 @@ a.text-danger:focus,
 a.text-danger.active {
   color: #ff5500 !important;
 }
+.navbar-nav .nav-item:hover,
 a.text-white:hover,
 a.text-white:focus,
 a.text-white.active {
@@ -966,6 +967,7 @@ a {
 .cid-sEIDGHvb4b .dropdown-item:active {
   background-color: transparent;
 }
+
 .cid-sEIDGHvb4b .navbar-expand-lg .navbar-nav .nav-link {
   padding: 0;
 }
