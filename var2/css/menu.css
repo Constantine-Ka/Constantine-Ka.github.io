@@ -44,11 +44,12 @@ header{
 .menu-overlay.active .menu{
 	transform: scale(1);	
 }
+.menu li{list-style-type: none;}
 
 .menu li a{
 	display: block;
-	font-size: 3em;
-	font-weight: 700;
+	font-size: 1em;
+    font-weight: normal;	
 	text-decoration: none;
 	color: #fff;
 	transition: .5s;
