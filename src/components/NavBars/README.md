@@ -44,3 +44,8 @@ This is a set of components  the content area.
     <hr>
     <img src="https://github.com/Constantine-Ka/Constantine-Ka.github.io/blob/master/screenshots/NavBars/Screenshot_5-1.png">
     </details>
+- 9DotsNavigationMenu.vue
+    <details>
+    <summary>Screenshot</summary>
+    <img src="https://github.com/Constantine-Ka/Constantine-Ka.github.io/blob/master/screenshots/NavBars/Screenshot_24.png">
+    </details> 
