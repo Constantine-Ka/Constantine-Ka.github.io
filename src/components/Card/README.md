@@ -8,7 +8,7 @@ This is a set of components  the content area.
 - WaterDropCards.vue
     <details>
     <summary>Screenshot</summary>
-    <img src="./../../Screenshot/Card/Screenshot_.png">
+    <img src="https://github.com/Constantine-Ka/Constantine-Ka.github.io/blob/master/screenshots/Card/Screenshot_.png">
     </details>  
     <details>
         <summary>Props</summary>
@@ -23,7 +23,7 @@ This is a set of components  the content area.
 - ResponsiveServicesSection.vue
     <details>
     <summary>Screenshot</summary>
-    <img src="./../../Screenshot/Card/Screenshot_2.png">
+    <img src="https://github.com/Constantine-Ka/Constantine-Ka.github.io/blob/master/screenshots/Card/Screenshot_2.png">
     </details>  
     <details>
         <summary>Props</summary>
@@ -40,7 +40,7 @@ This is a set of components  the content area.
 - CardBlockCircularProgressBar.vue
     <details>
     <summary>Screenshot</summary>
-    <img src="./../../Screenshot/Card/Screenshot_3.png">
+    <img src="https://github.com/Constantine-Ka/Constantine-Ka.github.io/blob/master/screenshots/Card/Screenshot_3.png">
     </details>  
     <details>
         <summary>Props</summary>
@@ -54,7 +54,7 @@ This is a set of components  the content area.
 - PricingCard.vue
   <details>
   <summary>Screenshot</summary>
-  <img src="./../../Screenshot/Card/Screenshot_4.png">
+  <img src="https://github.com/Constantine-Ka/Constantine-Ka.github.io/blob/master/screenshots/Card/Screenshot_4.png">
   </details>  
   <details>
       <summary>Props</summary>

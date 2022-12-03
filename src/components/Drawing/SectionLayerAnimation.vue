@@ -24,14 +24,11 @@
 		},
 		methods:{
 			activateElement(elem){
-
-
 				if(elem.classList.contains('sActive')) return;
 				this.$refs.container.classList.add('sElActive');
 				elem.classList.add('sActive');
 			},
 			closeElem(e){
-				console.log('close', e)
 				e.stopPropagation();
 				this.$refs.container.classList.remove('sElActive');
 				document.querySelector('.el.sActive').classList.remove('sActive');

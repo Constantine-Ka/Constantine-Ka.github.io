@@ -47,8 +47,14 @@ const router = createRouter({
     // },
     {
       path: "/:pathMatch(.*)",
+      name: "NotFound",
       component: NotFound,
     },
   ],
+});
+
+router.beforeEach((to, from, next) => {
+  document.title = `${to.name}`;
+  next();
 });
 export default router;
