@@ -11,12 +11,12 @@ This is a collection of UI components by category
 <details>
   <summary>Links Category</summary>
     <ul>
-        <li><a href="/src/Drawing">Drawing</a></li>
-        <li><a href="/src/Btn">Buttons</a></li>
-        <li><a href="/src/Card">Cards</a></li>
-        <li><a href="/src/Forms">Forms</a></li>
-        <li><a href="/src/Loader">Loaders & Spinners</a></li>
-        <li><a href="/src/NavBars">Navbars & SideBars</a></li>
-        <li><a href="/src/404NotFound">Not found page. Error </a></li>
+        <li><a href="https://github.com/Constantine-Ka/Constantine-Ka.github.io/tree/master/src/components/Drawing">Drawing</a></li>
+        <li><a href="https://github.com/Constantine-Ka/Constantine-Ka.github.io/tree/master/src/components/Btn">Buttons</a></li>
+        <li><a href="https://github.com/Constantine-Ka/Constantine-Ka.github.io/tree/master/src/components/Card">Cards</a></li>
+        <li><a href="https://github.com/Constantine-Ka/Constantine-Ka.github.io/tree/master/src/components/Forms">Forms</a></li>
+        <li><a href="https://github.com/Constantine-Ka/Constantine-Ka.github.io/tree/master/src/components/Loader">Loaders & Spinners</a></li>
+        <li><a href="https://github.com/Constantine-Ka/Constantine-Ka.github.io/tree/master/src/components/NavBars">Navbars & SideBars</a></li>
+        <li><a href="https://github.com/Constantine-Ka/Constantine-Ka.github.io/tree/master/src/components/404NotFound">Not found page. Error </a></li>
     </ul>
 </details>

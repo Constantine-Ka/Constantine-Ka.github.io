@@ -3,7 +3,11 @@
 This is a set of components  the content area.
 
 ## Components :
-
+- MouseEmojies.vue
+    <details>
+    <summary>Screenshot</summary>
+    <img src="https://github.com/Constantine-Ka/Constantine-Ka.github.io/blob/master/screenshots/Drawing/Screenshot_25.png">
+    </details>  
 
 - SectionLayerAnimation.vue
     <details>

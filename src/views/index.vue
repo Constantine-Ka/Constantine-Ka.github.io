@@ -8,7 +8,7 @@ import RoundedBottomNavigationBar from "@/components/NavBars/RoundedBottomNaviga
 import ColoredTilesBG from "@/components/Drawing/ColoredTilesBG.vue";
 import GlowingCube from "@/components/Drawing/GlowingCube.vue";
 import Unfold3DImage from "@/components/Drawing/Unfold3DImage.vue";
-
+import MouseEmojies from "@/components/Drawing/MouseEmojies.vue"
 import SectionLayerAnimation from "@/components/Drawing/SectionLayerAnimation.vue"
 
 export default {
@@ -27,18 +27,19 @@ export default {
 		ColoredTilesBG,
 		GlowingCube,
 		Unfold3DImage,
-		SectionLayerAnimation
-
+		SectionLayerAnimation,
+		MouseEmojies
 	}
 };
 </script>
 
 <template>
+	<MouseEmojies />
 	<SectionLayerAnimation />
 	<Unfold3DImage imgUrl = "https://loremflickr.com/640/360"/>
 	<GlowingCube />
 <!--	<ColoredTilesBG />-->
-<!--	<RoundedBottomNavigationBar />-->
+	<RoundedBottomNavigationBar />
 
   <MarioMatchingGame />
 	<Iphone14Island />
