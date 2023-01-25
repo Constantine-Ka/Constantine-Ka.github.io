@@ -1,9 +1,9 @@
 name: Deploy
 
 on:
-#  push:
-#    branches:
-#      - master
+  push:
+    branches:
+      - master
 
 jobs:
   build:
@@ -14,16 +14,23 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v2
 
-      - uses: actions/cache@v2
+      - name: Setup Node
+        uses: actions/setup-node@v1
         with:
-            path: '**/node_modules'
-            key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
+          node-version: 16
 
-      - name: Install packages
-        run: yarn install
+      - name: Install dependencies
+        run: |
+          if [ -e yarn.lock ]; then
+          yarn install --frozen-lockfile
+          elif [ -e package-lock.json ]; then
+          npm ci
+          else
+          npm i
+          fi
 
       - name: Build project
-        run: vite build
+        run: npm run build
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2
