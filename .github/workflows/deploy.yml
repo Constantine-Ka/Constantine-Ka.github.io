@@ -20,14 +20,7 @@ jobs:
           node-version: 16
 
       - name: Install dependencies
-        run: |
-          if [ -e yarn.lock ]; then
-          yarn cache clean & yarn install --frozen-lockfile
-          elif [ -e package-lock.json ]; then
-          npm ci
-          else
-          npm i
-          fi
+        uses: bahmutov/npm-install@v1
 
       - name: Build project
         run: npm run build
