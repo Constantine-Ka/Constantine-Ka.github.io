@@ -6,6 +6,7 @@ import path from "path";
 export default defineConfig({
   // base: "/CssEffects/",
   plugins: [vue()],
+  base: "Constantine-Ka.github.io",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
