@@ -9,6 +9,7 @@
 		methods:{
 			emojihandler(e){
 				let emojiElement = document.createElement('span')
+        emojiElement.classList.add('emoji')
 				let x = e.offsetX
 				let y = e.offsetY
 
@@ -45,7 +46,7 @@
 		background: #111;
 		overflow: hidden;
 	}
-	span{
+	span.emoji{
 		position: absolute;
 		pointer-events: none;
 		animation: animate 1s linear infinite;
