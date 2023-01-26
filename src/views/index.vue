@@ -11,6 +11,7 @@ import Unfold3DImage from "@/components/Drawing/Unfold3DImage.vue";
 import MouseEmojies from "@/components/Drawing/MouseEmojies.vue"
 import SectionLayerAnimation from "@/components/Drawing/SectionLayerAnimation.vue"
 import CubeNewYear from "@/components/Drawing/CubeNewYear.vue"
+import PolicevsTaxi from "@/components/Drawing/PolicevsTaxi.vue"
 
 export default {
 	name: 'index',
@@ -30,12 +31,14 @@ export default {
 		Unfold3DImage,
 		SectionLayerAnimation,
 		MouseEmojies,
-		CubeNewYear
+		CubeNewYear,
+    PolicevsTaxi
 	}
 };
 </script>
 
 <template>
+  <PolicevsTaxi />
 	<CubeNewYear />
 	<MouseEmojies />
 	<SectionLayerAnimation />

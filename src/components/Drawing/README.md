@@ -3,6 +3,11 @@
 This is a set of components  the content area.
 
 ## Components :
+- PoliceVsTaxi.vue
+  <details>
+    <summary>Screenshot</summary>
+    <img src="https://github.com/Constantine-Ka/Constantine-Ka.github.io/blob/master/screenshots/Drawing/Screenshot_17.png">
+    </details>  
 - MouseEmojies.vue
     <details>
     <summary>Screenshot</summary>
