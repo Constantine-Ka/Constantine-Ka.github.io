@@ -47,13 +47,7 @@
 		background: #111;
 		overflow: hidden;
 	}
-  //Not working
-  span.emoji{
-		position: absolute;
-		pointer-events: none;
-		animation: animate 1s linear infinite;
-	}
-  //------
+
 	@keyframes animate {
 		0%{
 			translate: 0 0;
