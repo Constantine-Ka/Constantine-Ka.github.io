@@ -9,7 +9,8 @@
 		methods:{
 			emojihandler(e){
 				let emojiElement = document.createElement('span')
-        emojiElement.classList.add('emoji')
+
+        emojiElement.style='position: absolute;pointer-events: none;animation: animate 1s linear infinite;';
 				let x = e.offsetX
 				let y = e.offsetY
 
@@ -46,11 +47,13 @@
 		background: #111;
 		overflow: hidden;
 	}
-	span.emoji{
+  //Not working
+  span.emoji{
 		position: absolute;
 		pointer-events: none;
 		animation: animate 1s linear infinite;
 	}
+  //------
 	@keyframes animate {
 		0%{
 			translate: 0 0;
