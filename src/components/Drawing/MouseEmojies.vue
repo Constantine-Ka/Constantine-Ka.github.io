@@ -38,7 +38,7 @@
 <section id = MouseEmojies @mousemove="emojihandler" ref="section"></section>
 </template>
 
-<style >
+<style scoped>
 	section#MouseEmojies{
 		position: relative;
 		min-height: 100vh;
