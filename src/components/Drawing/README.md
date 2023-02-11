@@ -3,6 +3,11 @@
 This is a set of components  the content area.
 
 ## Components :
+- GallerySection.vue
+  <details>
+    <summary>Screenshot</summary>
+    <img src="https://github.com/Constantine-Ka/Constantine-Ka.github.io/blob/master/screenshots/Drawing/Screenshot_18.png">
+    </details>  
 - PoliceVsTaxi.vue
   <details>
     <summary>Screenshot</summary>

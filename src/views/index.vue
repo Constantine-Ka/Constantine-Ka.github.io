@@ -12,6 +12,7 @@ import MouseEmojies from "@/components/Drawing/MouseEmojies.vue"
 import SectionLayerAnimation from "@/components/Drawing/SectionLayerAnimation.vue"
 import CubeNewYear from "@/components/Drawing/CubeNewYear.vue"
 import PolicevsTaxi from "@/components/Drawing/PolicevsTaxi.vue"
+import GallerySection from "@/components/Drawing/GallerySection.vue"
 
 export default {
 	name: 'index',
@@ -32,12 +33,14 @@ export default {
 		SectionLayerAnimation,
 		MouseEmojies,
 		CubeNewYear,
-    PolicevsTaxi
+    PolicevsTaxi,
+    GallerySection
 	}
 };
 </script>
 
 <template>
+  <GallerySection />
   <PolicevsTaxi />
 	<CubeNewYear />
 	<MouseEmojies />

@@ -29,7 +29,7 @@
 
 				this.$refs.section.appendChild(emojiElement)
 
-				setTimeout(()=>emojiElement.remove(),1000)
+				// setTimeout(()=>emojiElement.remove(),1000)
 
 			}
 		}
