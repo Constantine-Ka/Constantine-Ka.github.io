@@ -14,6 +14,8 @@ import CubeNewYear from "@/components/Drawing/CubeNewYear.vue"
 import PolicevsTaxi from "@/components/Drawing/PolicevsTaxi.vue"
 import GallerySection from "@/components/Drawing/GallerySection.vue"
 
+
+
 export default {
 	name: 'index',
 	data(){
@@ -34,7 +36,7 @@ export default {
 		MouseEmojies,
 		CubeNewYear,
     PolicevsTaxi,
-    GallerySection
+    GallerySection,
 	}
 };
 </script>

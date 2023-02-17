@@ -5,6 +5,7 @@ import RoundedBottomNavigationBar from '@/components/NavBars/RoundedBottomNaviga
 import OutsideSidebarColors from '@/components/NavBars/OutsideSidebarColors.vue';
 import UserbarAndToggleTheme from'@/components/NavBars/UserbarAndToggleTheme.vue';
 import NineDotsNavigationMenu from'@/components/NavBars/9DotsNavigationMenu.vue';
+import GlassmorphismSidebarMenu from'@/components/NavBars/GlassmorphismSidebarMenu.vue';
 
 
 
@@ -16,7 +17,8 @@ export default {
 	  RoundedBottomNavigationBar,
 	  OutsideSidebarColors,
 	  UserbarAndToggleTheme,
-	  NineDotsNavigationMenu
+	  NineDotsNavigationMenu,
+    GlassmorphismSidebarMenu
   }
 }
 </script>
@@ -29,6 +31,7 @@ export default {
 		<NavigationSearchBar />
 		<RoundedBottomNavigationBar />
 		<OutsideSidebarColors />
+    <GlassmorphismSidebarMenu />
 	</div>
 
 </template>

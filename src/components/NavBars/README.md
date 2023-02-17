@@ -3,12 +3,17 @@
 This is a set of components  the content area.
 
 ## Components :
+
 - ResponsiveNavigationBar.vue (*this used*)
     <details>
     <summary>Screenshot</summary>
     <img src="https://github.com/Constantine-Ka/Constantine-Ka.github.io/blob/master/screenshots/NavBars/Screenshot_0.png">
     </details>
-
+- GlassmorphismSidebarMenu.vue 
+    <details>
+    <summary>Screenshot</summary>
+    <img src="https://github.com/Constantine-Ka/Constantine-Ka.github.io/blob/master/screenshots/NavBars/Screenshot_19.png">
+    </details>
 - UserbarAndToggleTheme.vue
     <details>
     <summary>Screenshot</summary>
