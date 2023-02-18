@@ -9,17 +9,49 @@ import Nadegda from '@/components/404NotFound/404nadegda.vue';
 import Opeka365 from '@/components/404NotFound/404opeka.vue';
 import CaveMan from '@/components/404NotFound/404caveManAnim.vue';
 import Plate from '@/components/404NotFound/404plate.vue';
+import RollingCube from '@/components/404NotFound/404rollingCube.vue';
+import Bookshelf from '@/components/404NotFound/404Bookshelf.vue';
+import Scary from '@/components/404NotFound/404Scary.vue';
+import Blinking from '@/components/404NotFound/404Blinking.vue';
+import Burger from '@/components/404NotFound/404Burger.vue';
+import Terminal from '@/components/404NotFound/404TerminalStyle.vue';
+import CyberPunkInspired from '@/components/404NotFound/404CyberPunkInspired.vue';
 
 
 // import Navigation from "@/App.vue";
 
 export default {
 	name: '404',
-	components: { Navigation, NotFoundParallax,InsideText, Plane,Ufo,Miami,Nadegda,Opeka365, CaveMan, Plate}
+	components: {
+    Navigation,
+    NotFoundParallax,
+    InsideText,
+    Plane,
+    Ufo,
+    Miami,
+    Nadegda,
+    Opeka365,
+    CaveMan,
+    Plate,
+    RollingCube,
+    Bookshelf,
+    Scary,
+    Blinking,
+    Burger,
+    Terminal,
+    CyberPunkInspired
+  }
 };
 </script>
 <template>
 <!--  <Navigation />-->
+  <CyberPunkInspired />
+  <terminal />
+  <Burger />
+  <Blinking />
+  <Scary />
+  <Bookshelf />
+  <RollingCube />
   <Plate />
   <CaveMan />
   <Opeka365 />
