@@ -5,6 +5,7 @@ import ColorSwitchAnimatedLoginPage from "@/components/Form/ColorSwitchAnimatedL
 import PasswordValidationAndShowPasswordToggle from "@/components/Form/PasswordValidationAndShowPasswordToggle.vue";
 import SimpleEmailValidationCheck from "@/components/Form/SimpleEmailValidationCheck.vue";
 import LiquidDropLoginPage from "@/components/Form/LiquidDropLoginPage.vue";
+import responsiveLogin from "@/components/Form/responsiveLogin.vue"
 
 export default {
   name: "forms",
@@ -14,7 +15,8 @@ export default {
     ColorSwitchAnimatedLoginPage,
     PasswordValidationAndShowPasswordToggle,
     SimpleEmailValidationCheck,
-	  LiquidDropLoginPage
+	  LiquidDropLoginPage,
+    responsiveLogin
   }
 }
 </script>
@@ -26,6 +28,7 @@ export default {
   <PasswordValidationAndShowPasswordToggle />
   <ColorSwitchAnimatedLoginPage />
   <BankCard />
+  <responsive-login />
 </template>
 
 <style scoped>
