@@ -50,7 +50,7 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #fcee0a;
+  /*background-color: #fcee0a;*/
   mix-blend-mode: overlay;
   z-index: 1;
 }
