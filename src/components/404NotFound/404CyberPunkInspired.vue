@@ -31,7 +31,7 @@ export default {
 section {
   width: 100vw;
   height: 100vh;
-  background-color: #101010;
+  /*background-color: #101010;*/
   color: #fcee0a;
   font-family: "CyberPFont";
 }
